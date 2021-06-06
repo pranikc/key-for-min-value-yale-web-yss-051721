@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil
   end
   
-  min_val = 10000000000000000000
+  min_val = 10000000000000000000 # absurdly large number
   name_hash.each do |key, value|
     if value < min_val
       min_val = value
